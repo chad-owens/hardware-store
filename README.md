@@ -23,33 +23,33 @@ use the --baseUrl flag on command line.
 
 ## How to run:
 
-1. Install nodeJS
+#### 1. Install nodeJS
 
 https://nodejs.org/en/
 
-2. Install Protractor
+#### 2. Install Protractor
 
 https://www.protractortest.org/#/
 
 ~ $ npm install -g protractor
 
-3. Add Selenium
+#### 3. Add Selenium
 
 ~ $ webdriver-manager update
 
 
-4. Start Seleniun
+#### 4. Start Seleniun
 
 ~ $ webdriver-manager start
 
 
 -- Follow instructions to install Java if not already installed
 
-5. Clone hardware-store repository
+#### 5. Clone hardware-store repository
 
 ~ $ git clone https://github.com/chad-owens/hardware-store
 
-6. Run the specs
+#### 6. Run the specs
 
   To run e2e specs:
 
