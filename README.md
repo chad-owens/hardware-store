@@ -2,26 +2,26 @@
 
 My approach is:
 
--- To use a JS based Selenium framework (Protractor/Jasmine)
+### -- To use a JS based Selenium framework (Protractor/Jasmine)
 
--- Use Page Objects to keep specs readable, scalable, easy to add to
+### -- Use Page Objects to keep specs readable, scalable, easy to add to
 
   -- Elements and Functions encapsulated for re-use across multiple specs
 
--- Define easy to read Data Objects for specs that need data
+### -- Define easy to read Data Objects for specs that need data
 
   -- Keeps data obvious to contributors
 
   -- Data Objects could be used to drive specs
 
--- Create end to end tests, but also create a few sanity tests to run if necessary
+### -- Create end to end tests, but also create a few sanity tests to run if necessary
 
-NOTE: The baseUrl variable is intentionally left blank because it refers to company name
+## NOTE: The baseUrl variable is intentionally left blank because it refers to company name
 
 To run the specs against a baseUrl, please define the baseUrl in configs/config.js OR
 use the --baseUrl flag on command line.
 
-How to run:
+## How to run:
 
 1. Install nodeJS
 
@@ -60,5 +60,5 @@ https://www.protractortest.org/#/
 ~ $ protractor configs/config.js --suite=sanity
 
   To run all specs:
-  
+
 ~ $ protractor configs/config.js --suite=everything
